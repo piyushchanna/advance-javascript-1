@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 6</title>
+</head>
+<body>
+	
+<br><br><br><br>
+	<table>
+		<tr>
+			<td align="right">FName :</td>
+			<td><span id='1'></span></td>
+		</tr>
+
+		<tr>
+			<td align="right"> LName :</td>
+			<td><span id='2'></span></td>
+		</tr>
+
+		<tr>
+			<td align="right">Email :</td>
+			<td><span id='3'></span></td>
+		</tr>
+
+		<tr>
+			<td align="right">Phone :</td>
+			<td><span id='4'></span></td>
+		</tr>
+	</table>
+
+
+<script type="text/javascript">
+	
+	function Person( fname , lname , email , phone )
+	{
+		this.fname = fname;
+		this.lname = lname;
+		this.email = email;
+		this.phone = phone;
+	}
+	var temp = new Person( "piyush" , "ojha" , "piyushojha.87@gmail.com" , "2154641646");
+	document.getElementById('1').innerHTML = temp.fname;
+	document.getElementById('2').innerHTML = temp.lname;
+	document.getElementById('3').innerHTML = temp.email;
+	document.getElementById('4').innerHTML = temp.phone;
+</script>
+
+
+</body>
+</html>
