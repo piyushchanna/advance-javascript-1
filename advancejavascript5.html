@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 5</title>
+</head>
+<body>
+<script type="text/javascript">
+	function multi1(parm1, parm2)
+	{
+		function inner_multi(inner1,inner2)
+		{
+			var fu= inner1 * inner2;
+			alert("Multiplication of A and B  is " + fu);
+			return fu;
+		}
+	 inner_multi(parm1,parm2);
+	}
+	var a= prompt("Value of A");
+	var b= prompt("value of B");
+	
+	multi1(a,b);
+</script>
+
+
+</body>
+</html>
